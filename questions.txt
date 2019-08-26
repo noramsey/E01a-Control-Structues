@@ -3,13 +3,13 @@ Open main1.py. Before running it, what do you expect this program to do?
 Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
 
 What do you think the program did with what you typed?
-
+I think the code will say greetings, then prompt the reader to type out their favorite color. 
 
 
 Open main2.py. Before running it, describe how this is different than main1.py. 
-
+It has input:color under the previous code. 
 What do you think the color = input() will do? 
-
+I think it will change whatever my response is to the color. 
 Run the program in the terminal and answer the question. Did the program do what you expected?
 
 
