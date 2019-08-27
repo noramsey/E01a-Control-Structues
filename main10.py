@@ -27,4 +27,4 @@ while (play_again != 'n' and play_again != 'no'): #while constantly checks to se
         print('This was your best guess so far!') #it will display the text when the perameters are met above
         best_count = count #tracks count relative to best count 
     play_again = input("\nWould you like to play again? ").lower().strip() #prompts user to answer n, with all other possible anwers being 'Yes', if yes is the answer, the code will go through the above actions again
-print('Thanks for playing!') #displays only if playagain = no
+print('Thanks for playing!') #displays only if playagain = no 
