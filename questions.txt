@@ -81,4 +81,5 @@ It actually only tells you how many guesses you made when you finished. I think 
 
 Commit your changes and push them back to the repository. 
 
-Did you do the extra credit?
+Did you do the extra credit? 
+Yes, but probably not correctly.
