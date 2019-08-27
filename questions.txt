@@ -11,71 +11,71 @@ It has input:color under the previous code.
 What do you think the color = input() will do? 
 I think it will change whatever my response is to the color. 
 Run the program in the terminal and answer the question. Did the program do what you expected?
-
+No, it didn't do anything. I don't think the code has a response, just a prompt. 
 
 
 Open main3.py. Before running it, describe how this is different than main2.py. 
-
+Main3 has an if/else line, the top one says if you type 'Red' the machine will say 'Correct'. The bottom one asks you to try again if you don't answer ed. 
 What is happening on lines 11–14? 
-
+It seems to be a the codified response to the answer missing from Main2, where the code responds to 'Red' with one answer, and all other possible responses to another. 
 Why are lines 12 and 14 indented? 
-
+So the code knows they can only proceed after the code above them has fired. 
 Run the program and answer the question. What happens if you don’t capitalize Red? 
-
+The program seems to be case sensitive so it asks me to try again if I don't type Red. 
 What does this tell you about "color"?
-
+Color corresponds to Red and Red only. 
 
 
 Open main4.py. Before running it, describe how this is different than main2.py. 
-
+Now there's an OR statement corresponds to Color, so it means Red is red. 
 What problem is this trying to solve? 
-
+A user choosing to type out 'red' instead of 'Red', because both are the correct answer, but the machine doesn't know that. 
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
-
+It still thinks these are wrong answers. Red is Red or red. 
 
 
 Open main5.py. What do you expect line 11 to do? 
-
+I expect color.lower to somhow make it so all versions of the word 'Red' are correct. 
 What problem is it trying to solve? 
-
+If the user inputs ReD or rEd or Red or REd it will always reply 'Correct' 
 Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
-
+The code doesn't account for variations in spaces and will say 'incorrect' 
 
 
 Open main6.py. How is line 11 different than main5.py? 
-
+Now there's .strip in the line, where it wasn't previously.
 What would you guess .strip() is doing? 
-
+Account for spaces in the syntax of the input. 
 Run the program and answer the question. Is there another way of writing “red” that will break this logic?
-
+if you put a space between the the letters it won't recognize it as RED 
 
 
 Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
-
+now there's an additional option of Elif if the user inputs 'Pink' and it will reply 'CLOSE!
 What is the purpose of line 11? 
-
+Now all appearances of 'Color' will account for capitalization and spaces in the input, and recognize Red and pink.
 Run the program and answer the question.
-
+OK
 
 
 Open main8.py. What is the purpose of line 11? 
-
+I think it's constantly checking to see if color = red, and if it does not, it will prompt the user for another input if they get it wrong. 
 Why are lines 12–19 indented? 
-
+To represent that they come after the 'While' check
 Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
-
+It would cause the program to crash? 
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
-
+It repeated 'Close!' over and over again. 
 
 
 Open main9.py. What is happening on line 12? 
-
+Same thing as Main8, it's a Whilestatement with color != red (I think != means does not equal)
 What is the purpose of “count”? 
-
+To track how many times the use has guessed. 
 What is happening on line 22? 
-
+The coe is set up to relay how many failed guesses have been made. 
 Run the program.
-
+It actually only tells you how many guesses you made when you finished. I think that's because of the lack of an indent, because color now equals red. 
 
 *Extra credit:* open main10.py. Add a comment to each line describing what it is doing (a comment follows a pound sign [#]). 
 
